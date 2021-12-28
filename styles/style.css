@@ -1,3 +1,5 @@
+/* Common Styles */
+
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -22,13 +24,18 @@ body,
 .header-headbar,
 .header-headbar-links,
 .header-content,
-.content-text {
+.content-text,
+.information,
+.information-cards,
+.information-card {
     display: flex;
 }
 
 body,
 .header,
-.content-text {
+.content-text,
+.information,
+.information-card {
     flex-direction: column;
 }
 
@@ -36,6 +43,9 @@ body,
 .footer {
     background-color: #1f2937;
 }
+
+
+/* Header Styles */
 
 .header {
     padding: 24px 240px 144px 240px;
@@ -92,4 +102,41 @@ body,
     align-items: center;
     width: 500px;
     flex: 1 0 auto;
+}
+
+
+/* Information Styles */
+
+.information {
+    padding-top: 48px;
+    padding-bottom: 96px;
+    gap: 48px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.information-cards {
+    justify-content: center;
+    gap: 48px;
+}
+
+.information-card {
+    width: 150px;
+    gap: 16px;
+}
+
+.card-image {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-text {
+    text-align: center;
 }

@@ -28,7 +28,9 @@ body,
 .information,
 .information-cards,
 .information-card,
-.quotes {
+.quotes,
+.action-information,
+.action-text {
     display: flex;
 }
 
@@ -37,13 +39,19 @@ body,
 .content-text,
 .information,
 .information-card,
-.quotes {
+.quotes,
+.action-text {
     flex-direction: column;
 }
 
 .header,
 .footer {
     background-color: #1f2937;
+}
+
+.action-title,
+.action-description {
+    color: #f9faf8;
 }
 
 
@@ -163,4 +171,32 @@ body,
 .mention {
     font-size: 20px;
     align-self: flex-end;
+}
+
+
+/* Action Styles */
+
+.action {
+    padding: 72px 256px;
+}
+
+.action-information {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 48px 96px;
+    justify-content: space-between;
+}
+
+.action-text {
+    gap: 4px;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action-button {
+    border: 2px solid #f9faf8;
+    align-self: center;
 }

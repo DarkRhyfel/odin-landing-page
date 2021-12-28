@@ -1,0 +1,95 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+body,
+.header,
+.header-headbar,
+.header-headbar-links,
+.header-content,
+.content-text {
+    display: flex;
+}
+
+body,
+.header,
+.content-text {
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.header {
+    padding: 24px 240px 144px 240px;
+    gap: 120px;
+}
+
+.header-headbar {
+    justify-content: space-between;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-headbar-links {
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.content-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.header-link,
+.content-description {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.header-content {
+    gap: 48px;
+}
+
+.content-text {
+    flex: 1 1 auto;
+    gap: 16px;
+}
+
+.content-button {
+    border: 0;
+    align-self: flex-start;
+}
+
+.header-image {
+    background-color: gray;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    flex: 1 0 auto;
+}

@@ -27,7 +27,8 @@ body,
 .content-text,
 .information,
 .information-cards,
-.information-card {
+.information-card,
+.quotes {
     display: flex;
 }
 
@@ -35,7 +36,8 @@ body,
 .header,
 .content-text,
 .information,
-.information-card {
+.information-card,
+.quotes {
     flex-direction: column;
 }
 
@@ -139,4 +141,26 @@ body,
 
 .card-text {
     text-align: center;
+}
+
+
+/* Quotes Styles */
+
+.quotes {
+    margin: 0;
+    padding: 96px 400px;
+    background-color: #e5e7eb;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.mention {
+    font-size: 20px;
+    align-self: flex-end;
 }
